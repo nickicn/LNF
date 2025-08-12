@@ -7,3 +7,15 @@ git config --global user.email letcanunes@gmail.com
 Criando um projeto Web API com .net 9
 
 dotnet new webapi -o LNF.API --use-controllers
+
+dotnet add package Swashbuckle.AspNetCore --version 9.0.3
+
+Pacotes:
+
+dotnet add package Microsoft.EntityFrameworkCore --version 9.0.8
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.8
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.8
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 9.0.8
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 9.0.8
+dotnet add package System.IdentityModel.Tokens.Jwt --version 8.13.1
+dotnet add package MySql.EntityFrameworkCore --version 9.0.6
